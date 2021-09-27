@@ -1,0 +1,52 @@
+*   {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Arial";  
+    }
+
+.header{
+    background-color: black;
+    border: blueviolet 3px solid;
+    height: 100px;  
+    }   
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    }
+
+ .header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }   
+ 
+ .navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    }
+
+.header h1{
+    color: blueviolet;
+    }
+
+.navbar li{
+    color: purple;
+    font-weight: lighter;
+    }
+    
+ .navbar li a{
+     text-decoration: none;
+     color: purple; 
+    }
+
+ .navbar .active{
+    font-weight: bolder;
+    }
+
+
+    
