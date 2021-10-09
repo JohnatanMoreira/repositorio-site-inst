@@ -175,6 +175,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        border-radius: 10px;
         }
     
 .banner .formcadastro h2 {
